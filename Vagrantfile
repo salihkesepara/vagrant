@@ -70,5 +70,6 @@ Vagrant.configure("2") do |config|
       sudo apt-get install -y nodejs
       sudo apt-get install -y git
       npm set registry https://registry.npmjs.org/
+      sudo npm install -g yo
     SHELL
 end
